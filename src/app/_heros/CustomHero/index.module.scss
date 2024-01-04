@@ -22,6 +22,8 @@
   background-size: cover;
   background-position: revert;
   background-repeat: no-repeat;
+  background-position-y: 6%;
+
 
   @include small-break {
     background-size: cover;
@@ -35,6 +37,7 @@
   justify-content: center;
   padding: 15% var(--gutter-h);
   width: 100%;
+
 
   @include mid-break {
     padding: 10% 30px;
